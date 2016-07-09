@@ -1,0 +1,25 @@
+{
+  "name": "redtwi",
+  "version": "1.0.0",
+  "description": "auto post to twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhorrig/redtwi.git"
+  },
+  "author": "adam horrigan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adhorrig/redtwi/issues"
+  },
+  "homepage": "https://github.com/adhorrig/redtwi#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "cron": "^1.1.0",
+    "request": "^2.72.0",
+    "twitter": "^1.3.0"
+  }
+}
