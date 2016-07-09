@@ -61,6 +61,5 @@ new CronJob('0 0 */2 * * *', function (){
     if(err){
       console.log('Error when posting from Reddit to Twitter.', err);
     }
-    callback(err);
   });
 }, null, true, 'Europe/Dublin');
